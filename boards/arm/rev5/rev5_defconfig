@@ -1,0 +1,5 @@
+CONFIG_BT_DEVICE_NAME="Device1234"
+
+# Logger gets compiled out if you set these to n
+CONFIG_LOG=y
+CONFIG_USE_SEGGER_RTT=y

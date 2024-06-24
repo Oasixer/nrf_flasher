@@ -1,0 +1,21 @@
+# editors
+*.swp
+.cache/
+*~
+
+# build
+/build*/
+
+.DS_Store
+# scripts/*
+# !scripts/*.py
+# !scripts/*.yaml
+# !scripts/requirements.txt
+# !scripts/lc3/*
+scripts/output*
+scripts/venv
+__pycache__
+/rev6
+/rev7
+/rev5
+/rev8

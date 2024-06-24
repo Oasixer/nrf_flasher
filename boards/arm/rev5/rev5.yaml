@@ -1,0 +1,18 @@
+# Copyright (c) 2024 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+identifier: rev5
+name: rev5
+type: mcu
+arch: arm
+ram: 256
+flash: 1024
+# from macro snap, not sure if needed:
+# supported:
+#   - counter
+#   - pwm
+#   - adc
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools

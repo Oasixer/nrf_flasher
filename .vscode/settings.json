@@ -1,0 +1,33 @@
+{
+    "files.associations": {
+        "gpio.h": "c",
+        "common.h": "c",
+        "lc3.h": "c",
+        "nrfx_uart.h": "c",
+        "pdm.h": "c",
+        "lc3_.h": "c",
+        "log_ctrl.h": "c",
+        "util.h": "c",
+        "nrfx_log.h": "c",
+        "buf.h": "c",
+        "random": "c",
+        "*.tcc": "c",
+        "types.h": "c",
+        "log.h": "c",
+        "nrfx_pdm.h": "c",
+        "bluetooth.h": "c",
+        "adc.h": "c",
+        "string_view": "c",
+        "algorithm": "c",
+        "limits": "c",
+        "numeric": "c",
+        "kernel.h": "c",
+        "hrs.h": "c"
+    },
+    "C_Cpp.configurationWarnings": "disabled",
+    "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.5.3}",
+    "nrf-connect.topdir": "${nrf-connect.sdk:2.5.3}",
+    "nrf-connect.applications": [
+        "${workspaceFolder}"
+    ]
+}
