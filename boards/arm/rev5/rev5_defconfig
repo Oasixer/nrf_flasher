@@ -1,5 +1,7 @@
-CONFIG_BT_DEVICE_NAME="Device1234"
 
-# Logger gets compiled out if you set these to n
-CONFIG_LOG=y
+CONFIG_SOC_SERIES_NRF52X=y
+CONFIG_SOC_NRF52840_QFAA=y
 CONFIG_USE_SEGGER_RTT=y
+# Logger gets compiled out if you set these to n
+# CONFIG_LOG=y
+# CONFIG_USE_SEGGER_RTT=y
